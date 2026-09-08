@@ -6,6 +6,14 @@ An LLM Wiki is an architectural design pattern, nlike traditional Retrieval-Augm
 1. https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 
 
+# What an "LLM wiki" is
+
+A directory of markdown files with two halves that never mix:
+
+raw/ — immutable copies of what you ingested. What was said.
+
+wiki/ — pages an LLM wrote from those copies. What you know.
+
 
 ```text
 raw/          = evidence / source material
