@@ -6,9 +6,6 @@ An LLM Wiki is an architectural design pattern, nlike traditional Retrieval-Augm
 1. https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 
 
-You're right. My previous structure was too simplified and **missed the distinction between `concepts/` and `entities/`**, which is important if you want to understand the knowledge model deeply.
-
-The better mental model is:
 
 ```text
 raw/          = evidence / source material
@@ -23,7 +20,7 @@ Below is the corrected **end-to-end Zero → Hero architecture**, including `con
 
 ---
 
-# 1. LLM Wiki — 100,000-foot architecture
+# 1. LLM Wiki — architecture
 
 Think of the complete system as **six layers**:
 
